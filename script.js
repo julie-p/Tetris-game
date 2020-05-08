@@ -122,6 +122,7 @@ function merge(arena, player) {
     });
 }
 
+//Rotate physics to be fixed
 function rotate(matrix, dir) {
     for (let y = 0; y < matrix.length; ++y) {
         for (let x = 0; x < y; ++x) {
